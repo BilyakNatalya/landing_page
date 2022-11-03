@@ -1,8 +1,8 @@
-.header__nav-image {
+.header-img {
     max-width: 300px;
 }
 
-.header__nav-image-container {
+.logo {
     margin: auto;
 }
 
@@ -16,13 +16,13 @@
 
 }
 
-.header__nav-menu {
+.header__nav__menu {
     list-style-type: none;
     text-align: center;
     display: block;
 }
 
-.header__nav-menu-item {
+.header__nav__men-link {
     font-family: var(--text-font);  
 }
 
@@ -35,7 +35,7 @@
 }
 
 @media (min-width: 650px) {
-    .header__nav-menu {
+    .header__nav__menu {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -43,7 +43,7 @@
         flex: 1;
     }
 
-    .header__nav-image-container {
+    .logo {
         margin-left: 20px;
         margin-top: 10px;
     }
