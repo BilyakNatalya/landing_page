@@ -7,41 +7,30 @@
     <title>LH hotel&spa</title>
 </head>
 <body>
-    <div id="page-wrapper">
-        <header id="header">
+    <header class="header">
+        <nav class="header__nav">
           <div class="logo">
-            <img
-              id="header-img"
-              src="img/lh_header.png"
-              alt="LH"
-            />
+            <img src="img/lh_header.png" alt="LH" id="header-img">
           </div>
-  
-          <nav id="nav-bar">
-            <ul>
+           <ul class="header__nav__menu">
               <li><a class="nav-link" href="#features">Features</a></li>
               <li><a class="nav-link" href="#lh__hotel">Lh Hotel&Spa</a></li>
               <li><a class="nav-link" href="#pricing">Pricing</a></li>
             </ul>
-          </nav>
-        </header>
-  
-        <div class="container"></div>
-  
-        <section id="hero">
-          <h2>LH Hotel&Spa</h2>
-          <form id="form" action="https://www.freecodecamp.com/email-submit">
-            <input
-              name="email"
-              id="email"
-              type="email"
-              placeholder="Enter your email address"
-              required
-            />
-            <input id="submit" type="submit" value="Get Started" class="btn" />
+        </nav>
+    </header>
+    <main class="main">
+      <div class="search" id="search">
+        <p class="search__title">
+            LH Hotel&Spa
+        </p> 
+        <div class="search__form-container">
+          <form class="search__form" action="search__form-text">
+              <input type="text" placeholder="Enter your email address" name="clients-name">
+              <button class="button-52">GET STARTED</button>
           </form>
-        </section>
-  
+        </div>
+      </div>     
         <div class="container">
           <section id="features">
               <div class="desc">
@@ -68,15 +57,15 @@
                 </p>
               </div>
           </section>
-          <section id="lh_hotel&spa">
-            <iframe
-              id="photo"
-              height="315"
-              src="img/lh_hotel_spa.jpg"0"
-              allowfullscreen
-            ></iframe>
-          </section>
-          <section id="pricing">
+        </div>  
+            <div class="img__photo">
+              <iframe
+                id="photo"
+                height="315"
+                src="img/lh_hotel_spa.jpg"
+                allowfullscreen>
+              </iframe>
+            </div>
             <div class="rooms" id="standart">
               <article class="rooms__item">
                 <h2 class="rooms__item-title">
@@ -118,16 +107,25 @@
                </p>
                <a href="" class="rooms__item-select">SELECT</a>
             </article>
-          </section>
-          <footer>
-            <ul>
-              <li><a href="#">Privacy</a></li>
-              <li><a href="#">Terms</a></li>
-              <li><a href="#">Contact</a></li>
+          </div>  
+    </main>
+    <footer class="footer">
+      <div class="footer__nav">
+            <ul class="footer__nav-menu">
+              <li class="footer__nav-menu-item">
+                Privacy
+              </li>  
+              <li class="footer__nav-menu-item">
+                Terms
+              </li>
+              <li class="footer__nav-menu-item">
+              Contact
+              </li>
             </ul>
-            <span>Copyright 2022, LH Hotel&Spa</span>
-          </footer>
-        </div>
-      </div> 
-</body>
+            <p class="footer__nav-copyright-label">
+              Copyright 2022, LH Hotel&Spa
+            </p>
+      </div>  
+    </footer> 
+  </body>
 </html>
