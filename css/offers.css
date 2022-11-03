@@ -33,4 +33,5 @@
 .img__photo {
     display: flex;
     justify-content: center;
+    width: auto;
 }
