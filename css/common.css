@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-font: "Lato", sans-serif;
+    --main-color: #eee;
+    --cards-color: #ddd;
+    background-color: var(--main-color);
+}
+
+input[type="text"] {
+    width: 175px;
+    padding: 5px;
+}
+
+.offers-item__image {
+    width: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+iframe {
+    width: 560px;
+     height: 315px;
+}
