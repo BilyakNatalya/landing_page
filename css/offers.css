@@ -3,7 +3,7 @@
     flex-direction: column;
 }
 
-.offers-item {
+.desc {
     margin-bottom: 50px;
     margin-left: 50px;
     display: flex;
@@ -11,22 +11,18 @@
 }
 
 @media (max-width: 550px) {
-    .offers-item__image {
-        display: none;
-    }
     .offers-item {
         margin-left: 0;
         margin-bottom: 50px;
     }
 }
 
-
 @media (min-width: 550px) {
     .offers-container {
         display: flex;
         flex-direction: column;
     }
-    .offers-item {
+    .desc {
         text-align: left;
         align-self: center;
         width: 80vw;
@@ -34,13 +30,7 @@
     }
 }
 
-.offers-item__image-container {
-    display: inline;
-    align-self: flex-start;
-    margin-right: 20px;
-}
-
-.promo-video {
+.img__photo {
     display: flex;
     justify-content: center;
 }
